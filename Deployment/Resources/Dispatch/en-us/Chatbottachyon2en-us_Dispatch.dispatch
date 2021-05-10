@@ -1,0 +1,40 @@
+{
+  "authoringRegion": "westus",
+  "culture": "en-us",
+  "hierarchical": true,
+  "useAllTrainingData": true,
+  "dontReviseUtterance": false,
+  "copyLuisData": true,
+  "normalizeDiacritics": true,
+  "services": [
+    {
+      "intentName": "l_General",
+      "appId": "03e77289-7aba-47b2-a05f-07f08da8153b",
+      "authoringKey": "330d57d533fe4972a05cdd54159365b2",
+      "version": "0.1",
+      "region": "westus",
+      "type": "luis",
+      "name": "Chatbottachyon2en-us_General",
+      "id": "1"
+    },
+    {
+      "intentName": "q_Faq",
+      "includePrompts": true,
+      "kbId": "0e6c7969-be1d-4aff-826a-5460180577dc",
+      "subscriptionKey": "d26ee9d7937c4ccd9dc3f830d980ae5b",
+      "type": "qna",
+      "name": "Faq",
+      "id": "2"
+    }
+  ],
+  "serviceIds": [
+    "1",
+    "2"
+  ],
+  "appId": "f08bcce4-f6d2-4cb0-bc8a-64653a3d4a92",
+  "authoringKey": "330d57d533fe4972a05cdd54159365b2",
+  "version": "Dispatch",
+  "region": "westus",
+  "type": "dispatch",
+  "name": "Chatbottachyon2en-us_Dispatch"
+}

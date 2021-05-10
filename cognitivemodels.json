@@ -1,38 +1,47 @@
 {
+  "defaultLocale": "en-us",
   "cognitiveModels": {
     "en-us": {
       "dispatchModel": {
-        "appid": "",
-        "authoringkey": "",
-        "authoringRegion": "",
-        "name": "",
-        "region": "",
-        "subscriptionkey": "",
-        "type": "dispatch"
+        "authoringRegion": "westus",
+        "authoringkey": "330d57d533fe4972a05cdd54159365b2",
+        "version": "Dispatch",
+        "region": "westus",
+        "type": "dispatch",
+        "appid": "f08bcce4-f6d2-4cb0-bc8a-64653a3d4a92",
+        "subscriptionkey": "26af5aca3a044bb9a0f2e459468cf89a",
+        "name": "Chatbottachyon2en-us_Dispatch"
       },
       "languageModels": [
         {
-          "appid": "",
-          "authoringkey": "",
-          "authoringRegion": "",
-          "id": "",
-          "name": "",
-          "region": "",
-          "subscriptionkey": "",
-          "version": ""
+          "authoringkey": "330d57d533fe4972a05cdd54159365b2",
+          "version": "0.1",
+          "region": "westus",
+          "appid": "03e77289-7aba-47b2-a05f-07f08da8153b",
+          "endpoint": "https://chatbottachyon2-luisauthoring-737tgrd.cognitiveservices.azure.com/",
+          "id": "General",
+          "subscriptionkey": "26af5aca3a044bb9a0f2e459468cf89a",
+          "name": "Chatbottachyon2en-us_General"
         }
       ],
       "knowledgebases": [
         {
-          "endpointKey": "",
-          "hostname": "",
-          "id": "",
-          "kbId": "",
-          "name": "",
-          "subscriptionKey": ""
+          "endpointKey": "59f83863-aad6-42fc-ad87-63c3c877b901",
+          "subscriptionKey": "d26ee9d7937c4ccd9dc3f830d980ae5b",
+          "kbId": "1120529d-03a8-4a49-8b71-7b397e874d15",
+          "name": "Chitchat",
+          "id": "Chitchat",
+          "hostname": "https://chatbottachyon2-qnahost-737tgrd.azurewebsites.net"
+        },
+        {
+          "endpointKey": "59f83863-aad6-42fc-ad87-63c3c877b901",
+          "subscriptionKey": "d26ee9d7937c4ccd9dc3f830d980ae5b",
+          "kbId": "0e6c7969-be1d-4aff-826a-5460180577dc",
+          "name": "Faq",
+          "id": "Faq",
+          "hostname": "https://chatbottachyon2-qnahost-737tgrd.azurewebsites.net"
         }
       ]
     }
-  },
-  "defaultLocale": "en-us"
+  }
 }

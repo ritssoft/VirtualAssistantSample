@@ -1,0 +1,28 @@
+Microsoft (R) Build Engine version 16.5.0+d4cbfca49 for .NET Core
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+{
+  "active": false,
+  "author": "N/A",
+  "author_email": "N/A",
+  "complete": true,
+  "deployer": "ZipDeploy",
+  "end_time": "2021-05-10T08:57:22.4440699Z",
+  "id": "35c7167c9bfb4de18fb76cedeaa56cd8",
+  "is_readonly": true,
+  "is_temp": false,
+  "last_success_end_time": "2021-05-10T08:57:22.4440699Z",
+  "log_url": "https://chatbottachyon2-737tgrd.scm.azurewebsites.net/api/deployments/latest/log",
+  "message": "Created via a push deployment",
+  "progress": "",
+  "provisioningState": "Succeeded",
+  "received_time": "2021-05-10T08:57:16.201657Z",
+  "site_name": "Chatbottachyon2-737tgrd",
+  "start_time": "2021-05-10T08:57:16.9721143Z",
+  "status": 4,
+  "status_text": "",
+  "url": "https://chatbottachyon2-737tgrd.scm.azurewebsites.net/api/deployments/latest"
+}
+WARNING: Getting scm site credentials for zip deployment
+WARNING: Starting zip deployment. This operation can take a while to complete ...
+WARNING: Deployment endpoint responded with status code 202
